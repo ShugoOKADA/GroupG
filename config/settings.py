@@ -22,6 +22,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'i)sq-lr=98e(-svt6k47hqjvp!@$em_p__3!gfg04itup85s2k'
 
+
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
@@ -39,6 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     'ruka.apps.RukaConfig',
+    'taiga.apps.TaigaConfig',
 ]
 
 MIDDLEWARE = [
